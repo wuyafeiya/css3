@@ -5,9 +5,10 @@
       v-for="(item, index) in DataList"
       :key="index"
       @click="ChangeButton(item.value)"
+      style="margin-bottom: 20px; margin-left: 20px"
       >{{ item.name }}</el-button
     >
-    <component :is="componentTag"></component>
+    <component :is="componentTag" style="margin-top: 100px"></component>
   </div>
 </template>
 <script>
