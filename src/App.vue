@@ -3,6 +3,7 @@
     <el-button type="primary" @click="ChangeButton(1)"
       >border 边框属性</el-button
     >
+    <el-button type="primary">line-height</el-button>
     <component :is="componentTag"></component>
   </div>
 </template>
