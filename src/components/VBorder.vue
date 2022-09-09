@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>112312312</p>
+    <p style="border: 5px solid red">112312312</p>
   </div>
 </template>
 
@@ -9,7 +9,4 @@ export default {};
 </script>
 
 <style>
-p {
-  border: 5px solid red;
-}
 </style>
